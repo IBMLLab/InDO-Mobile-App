@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "InDo",
+    "slug": "indo",
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/indoappLogo.png",
+    "splash": {
+      "image": "./assets/indoappLogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.indoibml.indoapp",
+      "buildNumber": "1.0.3",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.indoibml.indoapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/indoappLogo.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
